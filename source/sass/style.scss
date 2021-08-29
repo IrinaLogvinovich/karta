@@ -1,0 +1,14 @@
+/* Плагины */
+@import "plugins/normalize";
+
+/* Общие */
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "fonts";
+@import "global";
+
+/* Блоки */
+
+@import "blocks/container";
+
