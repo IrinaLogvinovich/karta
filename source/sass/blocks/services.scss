@@ -1,0 +1,83 @@
+.services__title {
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 115%;
+  color: #27363A;
+  max-width: 1200px;
+  margin-top: 0;
+  margin-bottom: 33px;
+}
+
+.services__container {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  max-width: 1312px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.services__row {
+  position: relative;
+  min-height: 525px;
+}
+
+.services__row::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.services__row::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+
+.services__row:first-of-type::before {
+  background-color: #EEAEB5;
+}
+
+.services__row:first-of-type::after {
+  background-color: #7397CE;
+}
+
+.services__row:last-of-type::before {
+  background-color: #F06464;
+}
+
+.services__row:last-of-type::after {
+  background-image: url('../img/service-back.png');
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: auto 100%;
+}
+
+.services__row:first-of-type {
+  padding-top: 61px;
+}
+
+.services__row:last-of-type {
+  padding-top: 100px;
+  padding-bottom: 92px;
+}
+
+
+// Точечные изменения
+
+.services__row:last-of-type .service__title {
+  max-width: 400px;
+}
+
+.services__row:last-of-type .service__subtitle {
+  max-width: 400px;
+}
+
+
