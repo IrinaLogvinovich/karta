@@ -101,3 +101,8 @@
 .footer__menu a {
   text-decoration: none;
 }
+
+.footer__menu a:hover {
+  opacity: 0.8;
+  transition: opacity 0.4s ease;
+}
