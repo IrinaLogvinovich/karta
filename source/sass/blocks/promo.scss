@@ -1,7 +1,3 @@
-.promo {
-
-}
-
 .promo__grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -28,6 +24,7 @@
 
   @media(max-width: 767px) {
     padding: 0 12px;
+    max-width: 100%;
   }
 }
 
@@ -50,6 +47,7 @@
     margin-top: 30px;
     margin-bottom: 12px;
     text-align: center;
+    max-width: 100%;
   }
 }
 
@@ -238,6 +236,7 @@
     font-size: 20px;
     text-align: center;
     margin-top: 0;
+    max-width: 100%;
   }
 }
 

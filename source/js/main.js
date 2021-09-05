@@ -3,3 +3,4 @@
 // eslint-disable-next-line
 //= modules/popup.js
 //= modules/promo-slider.js
+//= modules/menu.js
