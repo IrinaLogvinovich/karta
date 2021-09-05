@@ -6,3 +6,23 @@
 .social__item:not(:first-child) {
   margin-left: 30px;
 }
+
+.social__link {
+  &:hover svg path {
+    fill: $white;
+    transition: fill 0.4s ease;
+  }
+
+  &:hover svg rect {
+    stroke: $white;
+    transition: stroke 0.4s ease;
+  }
+
+  @media (max-width: 1023px) {
+
+    & svg {
+      width: 40px;
+    }
+
+  }
+}
