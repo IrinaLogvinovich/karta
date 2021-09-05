@@ -1,11 +1,17 @@
 .header {
   background-color: $white;
+  position: relative;
+  z-index: 20;
 }
 
 .header__container {
   display: flex;
   padding: 33px 0;
   align-items: center;
+
+  @media(max-width: 1023px) {
+    padding: 20px 0 15px 0;
+  }
 }
 
 .header__menu {
@@ -32,6 +38,34 @@
     @media(max-width: 1400px) {
       margin-left: 15px;
     }
+
+    @media(max-width: 1023px) {
+      margin-left: 0;
+      margin-bottom: 15px;
+    }
+  }
+
+  & li:first-child {
+    @media(max-width: 1023px) {
+      margin-left: 0;
+      margin-bottom: 15px;
+    }
+  }
+
+  @media(max-width: 1023px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    z-index: 20;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
   }
 }
 
@@ -46,12 +80,21 @@
   text-align: center;
   position: relative;
 
+  @media(max-width: 1023px) {
+    font-size: 10px;
+    line-height: 145%;
+  }
+
   & svg {
     position: absolute;
     top: 50%;
     left:50%;
     transform: translateY(-50%) translateX(-50%);
     z-index: 2;
+
+    @media(max-width: 1023px) {
+      max-width: 130px;
+    }
   }
 
   & span {
@@ -59,6 +102,10 @@
     color: #92BD72;
     z-index: 3;
     padding: 0 55px;
+
+    @media(max-width: 1023px) {
+      padding: 0 30px;
+    }
   }
 
   &:hover svg path {
@@ -80,6 +127,10 @@
   @media(max-width: 1440px) {
     margin-left: 20px;
   }
+
+  @media(max-width: 1023px) {
+    margin-left: 10px;
+  }
 }
 
 .header__second-list {
@@ -96,11 +147,19 @@
   visibility: hidden;
   opacity: 0;
 
+  @media(max-width: 1023px) {
+    padding: 43px 12px 12px 12px;
+  }
+
   & a {
     text-decoration: none;
     font-size: 18px;
     line-height: 145%;
     color: #27363A;
+
+    @media(max-width: 1023px) {
+      font-size: 12px;
+    }
   }
 
   & li:not(:last-child) {
@@ -127,8 +186,6 @@
 
 .header__logo {
   margin-left: 40px;
-
-
     @media(max-width: 1400px) {
       margin-left: 20px;
       & img {
@@ -136,4 +193,58 @@
       }
     }
 
+    @media(max-width: 1023px) {
+      margin-left: 12px;
+      & img {
+        max-width: 90px;
+      }
+    }
+}
+
+.header__burger {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: none;
+  margin-right: 12px;
+
+  @media(max-width: 1023px) {
+    display: block;
+  }
+}
+
+.header__close {
+  position: fixed;
+  top: 20px;
+  right: 12px;
+  z-index: 21;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  width: 25px;
+      visibility: hidden;
+    opacity: 0;
+
+  & img {
+    width: 100%;
+  }
+}
+
+.header__menu_active {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.4s ease;
+}
+
+.header__close_active {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.4s ease;
+
+  @media(min-width: 1024px) {
+    visibility: hidden;
+    opacity: 0;
+  }
 }
