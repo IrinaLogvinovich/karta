@@ -87,7 +87,7 @@ gulp.task('sprite', () => gulp.src('source/img/sprite/*.svg')
 );
 
 gulp.task('copy', () => gulp.src([
-    'source/fonts/**/*.{ttf,woff,woff2}',
+    'source/fonts/**/*.{otf, ttf,woff,woff2}',
     'source/img/**',
     'source/favicon/*',
     'source/json/**',
