@@ -2,6 +2,8 @@
   background: #92BD72;
   padding-top: 75px;
   padding-bottom: 39px;
+  position: relative;
+  z-index: 4;
 
   @media (max-width: 1023px) {
     padding-top: 28px;
