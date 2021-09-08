@@ -1,3 +1,8 @@
+.services {
+  background-color: white;
+  position: relative;
+  z-index: 4;
+}
 .services__title {
   font-weight: 400;
   font-size: 80px;
@@ -7,6 +12,8 @@
   margin-top: 0;
   margin-bottom: 33px;
   padding-top: 60px;
+
+
 
   @media(max-width: 1440px) {
     font-size: 60px;
