@@ -29,7 +29,7 @@
 
   & a:hover {
     transition: border-color 0.4s ease;
-    border-color: #92BD72;
+    border-color: #EEAEB5;
   }
 
   & li:not(:first-child) {
@@ -81,8 +81,12 @@
   position: relative;
 
   @media(max-width: 1023px) {
-    font-size: 10px;
-    line-height: 145%;
+    font-size: 7px;
+    line-height: 100%;
+    width: 100px;
+    height: 22px;
+    box-sizing: border-box;
+    align-self: flex-start;
   }
 
   & svg {
@@ -93,13 +97,14 @@
     z-index: 2;
 
     @media(max-width: 1023px) {
-      max-width: 130px;
+      width: 100px;
+      height: 22px;
     }
   }
 
   & span {
     position: relative;
-    color: #92BD72;
+    color: #EEAEB5;
     z-index: 3;
     padding: 0 55px;
 
@@ -109,12 +114,12 @@
   }
 
   &:hover svg path {
-    fill: #92BD72;
+    fill: #EEAEB5;
     transition: fill 0.4s ease;
   }
 
   &:hover span{
-    color: $white;
+    color: #EEAEB5;
     transition: color 0.4s ease;
   }
 }
@@ -130,6 +135,7 @@
 
   @media(max-width: 1023px) {
     margin-left: 10px;
+    height: 22px;
   }
 }
 
