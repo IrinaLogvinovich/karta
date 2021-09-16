@@ -95,14 +95,7 @@
 }
 
 .services__row:last-of-type::after {
-  background-image: url('../img/service-back.png');
-  background-repeat: no-repeat;
-  background-color: white;
-  background-size: auto 100%;
-
-  @media(max-width: 767px) {
-    background: transparent;
-  }
+  background: #92bd72;
 }
 
 .services__row:first-of-type {
@@ -115,6 +108,7 @@
 
   @media(max-width: 767px) {
     padding: 0;
+    order: 1;
   }
 }
 
@@ -129,6 +123,7 @@
 
   @media(max-width: 767px) {
     padding: 0;
+    order: 2;
   }
 }
 
@@ -139,8 +134,9 @@
   max-width: 400px;
 }
 
-.services__row:last-of-type .service__subtitle {
-  max-width: 400px;
+.services__row:last-of-type {
+  display: flex;
+  flex-direction: column;
 }
 
 @media(max-width: 767px) {
@@ -157,6 +153,6 @@
 }
 
 .services__row:last-child .service:last-child {
-  background-color: #B4A07D;
+  background-color: #92BD72;
 }
 }

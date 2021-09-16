@@ -1,0 +1,85 @@
+.hints {
+
+  &__container {
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+    @media(max-width: 1023px) {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 116%;
+    /* identical to box height, or 93px */
+
+    color: #27363A;
+    margin-bottom: 20px;
+    margin-top: 0;
+
+    @media(max-width: 1023px) {
+      font-weight: 600;
+      font-size: 35px;
+      line-height: 115%;
+    }
+  }
+
+  &__text {
+    margin: 0;
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 135%;
+    max-width: 540px;
+    /* or 27px */
+
+    color: #27363A;
+
+    @media(max-width: 1023px) {
+      font-size: 14px;
+      line-height: 115%;
+      max-width: none;
+    }
+  }
+
+  &__input {
+    padding: 20px;
+    width: 100%;
+    max-width: 558px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 135%;
+    /* identical to box height, or 27px */
+
+    color: #27363A;
+    border: 1px solid #EEAEB5;
+    background: url("../img/search.svg") no-repeat 98% center;
+
+    @media(max-width: 1023px) {
+      font-size: 14px;
+      line-height: 115%;
+    }
+
+    &::placeholder {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 135%;
+      /* identical to box height, or 27px */
+
+      color: #27363A;
+      opacity: 0.6;
+
+      @media(max-width: 1023px) {
+        font-size: 14px;
+        line-height: 115%;
+      }
+    }
+  }
+}
