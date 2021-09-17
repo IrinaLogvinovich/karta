@@ -1,6 +1,6 @@
 // eslint-disable-next-line
-//= modules/partners.js
+//= modules/accordion.js
 // eslint-disable-next-line
-//= modules/popup.js
-//= modules/promo-slider.js
 //= modules/menu.js
+// eslint-disable-next-line
+//= modules/categories.js

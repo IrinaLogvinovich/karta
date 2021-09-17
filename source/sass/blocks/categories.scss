@@ -10,9 +10,12 @@
     }
   }
 
-  &__container {
-
+  &__container.container {
+    @media (max-width: 1023px) {
+      padding-right: 0;
+    }
   }
+
 
   &__title {
     margin-top: 0;
@@ -39,7 +42,6 @@
       overflow: hidden;
     }
 
-
     &__button-item {
       width: auto;
       max-width: 200px;
@@ -52,10 +54,10 @@
       color: #27363A;
       cursor: pointer;
 
-      @media (max-width: 1023px) {
-        margin-right: 0;
-        padding: 16px 18px;
-        font-size: 14px;
+      &:last-child {
+        @media (max-width: 1023px) {
+          margin-right: 46px;
+        }
       }
 
       &--active {

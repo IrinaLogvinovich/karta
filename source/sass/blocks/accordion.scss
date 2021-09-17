@@ -1,0 +1,137 @@
+.accordion-section {
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__text {
+    margin-top: 40px;
+    max-width: 384px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 135%;
+    color: rgba(39, 54, 58, 0.5);
+
+    @media (max-width: 1023px) {
+      margin-top: 26px;
+      margin-bottom: 50px;
+    }
+  }
+
+  @media (max-width: 1023px) {
+    margin-top: 33px;
+  }
+}
+
+
+.accordion {
+  width: 100%;
+  padding: 50px 0;
+  color: #27363A;
+  border-bottom: 1px solid #EEAEB5;
+
+  @media (max-width: 1023px) {
+    padding: 26px 0;
+  }
+
+}
+
+.accordion-header,
+.accordion-body {
+  background: white;
+}
+
+.accordion-header {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 135%;
+  color: #27363A;
+  cursor: pointer;
+  transition: all .3s;
+
+  @media (max-width: 1023px) {
+    padding-right: 70px;
+    font-size: 20px;
+    line-height: 115%;
+  }
+}
+
+.accordion-header:hover {
+  z-index: 5;
+  opacity: 0.8;
+}
+
+.accordion-body__author {
+  display: flex;
+  align-items: center;
+
+  & span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #27363A;
+  }
+
+  & img {
+    display: block;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+}
+
+.accordion-body {
+  display: none;
+}
+.accordion-body__contents {
+  padding-top: 33px;
+  paddinb-bottom: 9px;
+
+  @media (max-width: 1023px) {
+    padding-top: 20px;
+    paddinb-bottom: 6px;
+  }
+  }
+.accordion-body__contents p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 145%;
+  color: #27363A;
+
+  @media (max-width: 1023px) {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 135%;
+  }
+
+}
+
+.accordion__item > .accordion-header:after {
+  content: url(../img/accordion-arrow.svg);
+  position: absolute;
+  top: -2px;
+  left: 0;
+  transition: .3s all;
+  transform: rotate(0deg);
+  @media (max-width: 1023px) {
+    left: 95%;
+  }
+  }
+
+.accordion__item.active > .accordion-header:after {
+  transform: rotate(-180deg);
+}
+
+.accordion__item {
+  padding: 0 60px;
+  position: relative;
+
+  @media (max-width: 1023px) {
+    padding: 0;
+  }
+}
