@@ -1,0 +1,35 @@
+.breadcrumbs {
+  & ul {
+    @include list-reset;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    line-height: 21px;
+    color: $white;
+
+    & a {
+      text-decoration: none;
+    }
+
+    & li:not(:last-child) {
+      padding-right: 46px;
+      margin-bottom: 10px;
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        right: 16px;
+        top: 9px;
+        width: 12px;
+        height: 5px;
+        border: 1px solid #FFFFFF;
+        border-radius: 50%;
+      }
+    }
+
+    & li:last-child {
+      opacity: 0.5;
+    }
+  }
+}

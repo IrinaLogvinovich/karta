@@ -6,7 +6,7 @@
 
 .header__container {
   display: flex;
-  padding: 33px 0;
+  padding: 20px 0;
   align-items: center;
 
   @media(max-width: 1023px) {
@@ -29,11 +29,11 @@
 
   & a:hover {
     transition: border-color 0.4s ease;
-    border-color: #92BD72;
+    border-color: #7397CE;
   }
 
   & li:not(:first-child) {
-    margin-left: 35px;
+    margin-left: 70px;
 
     @media(max-width: 1400px) {
       margin-left: 15px;
@@ -79,50 +79,28 @@
   line-height: 145%;
   text-align: center;
   position: relative;
+  padding: 20px 33px;
+  border: 2px solid #7397CE;
+  color: #7397CE;
+  border-radius: 50%;
 
   @media(max-width: 1023px) {
+    padding: 6px 20px;
     font-size: 10px;
     line-height: 145%;
   }
 
-  & svg {
-    position: absolute;
-    top: 50%;
-    left:50%;
-    transform: translateY(-50%) translateX(-50%);
-    z-index: 2;
-
-    @media(max-width: 1023px) {
-      max-width: 130px;
-    }
-  }
-
-  & span {
-    position: relative;
-    color: #92BD72;
-    z-index: 3;
-    padding: 0 55px;
-
-    @media(max-width: 1023px) {
-      padding: 0 30px;
-    }
-  }
-
-  &:hover svg path {
-    fill: #92BD72;
-    transition: fill 0.4s ease;
-  }
-
-  &:hover span{
+  &:hover {
     color: $white;
-    transition: color 0.4s ease;
+    background-color: #7397CE;
+    transition: all 0.4s ease;
   }
 }
 
 .header__second-menu {
   position: relative;
   margin-left: 55px;
-
+  display: flex;
 
   @media(max-width: 1440px) {
     margin-left: 20px;
@@ -131,52 +109,6 @@
   @media(max-width: 1023px) {
     margin-left: 10px;
   }
-}
-
-.header__second-list {
-  @include list-reset;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  padding: 83px 26px 37px 26px;
-  left: 0;
-  top: 12px;
-  background-color: white;
-  border-radius: 15px;
-  visibility: hidden;
-  opacity: 0;
-
-  @media(max-width: 1023px) {
-    padding: 43px 12px 12px 12px;
-  }
-
-  & a {
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 145%;
-    color: #27363A;
-
-    @media(max-width: 1023px) {
-      font-size: 12px;
-    }
-  }
-
-  & li:not(:last-child) {
-    margin-bottom: 14px;
-  }
-}
-
-.header__button:hover + .header__second-list {
-  visibility: visible;
-  opacity: 1;
-  transition: opacity 0.4s ease;
-}
-
-.header__second-list:hover {
-  visibility: visible;
-  opacity: 1;
-  transition: opacity 0.4s ease;
 }
 
 .header__logo:hover {

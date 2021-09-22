@@ -1,7 +1,7 @@
 .footer {
   min-height: 230px;
   display: flex;
-  align-items: center;  
+  align-items: center;
   position: relative;
   z-index: 4;
 
@@ -26,8 +26,8 @@
 .footer__menu {
   @include list-reset;
   display: grid;
-  grid-template-columns: 156px 181px 139px 200px;
-  gap: 52px;
+  grid-template-columns: 250px 200px;
+  gap: 75px;
   font-size: 16px;
   line-height: 115%;
   color: rgba(39, 54, 58, 0.66);
@@ -43,7 +43,7 @@
   }
 
   @media(max-width: 767px) {
-    text-align: left;
+    text-align: center;
   }
 }
 
