@@ -6,4 +6,6 @@
 //= modules/small-popup.js
 // eslint-disable-next-line
 //= modules/find.js
+// eslint-disable-next-line
+//= modules/photos.js
 

@@ -1,0 +1,24 @@
+.find {
+  padding-top: 172px;
+
+  @media (max-width: 1023px) {
+    padding-top: 60px;
+  }
+
+  &__title {
+    color: #27363A;
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 100%;
+    margin-bottom: 50px;
+
+    @media (max-width: 1023px) {
+      margin-bottom: 20px;
+      font-size: 35px;
+      line-height: 115%;
+      text-align: center;
+
+    }
+  }
+}
