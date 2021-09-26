@@ -4,3 +4,6 @@
 //= modules/menu.js
 // eslint-disable-next-line
 //= modules/small-popup.js
+// eslint-disable-next-line
+//= modules/find.js
+

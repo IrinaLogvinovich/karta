@@ -1,0 +1,67 @@
+.find-tags {
+  margin-bottom: 34px;
+
+  @media (max-width: 1023px) {
+    margin-bottom: 30px;
+  }
+
+  a, button {
+    transition: 0.2s;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.7;
+      transition: 0.2s;
+    }
+  }
+
+  &__container.container {
+    @media (max-width: 1023px) {
+      padding-right: 0;
+    }
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .swiper-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+    @media (max-width: 1023px) {
+      flex-wrap: nowrap;
+    }
+  }
+
+  &__button-item {
+    width: auto;
+    max-width: 200px;
+    margin-right: 16px;
+    font-size: 16px;
+    line-height: 100%;
+    border-radius: 100px;
+    border: 2px solid #7397CE;
+    padding: 19px 30px;
+    color: #27363A;
+    cursor: pointer;
+    margin-bottom: 16px;
+
+    @media (max-width: 1023px) {
+      margin-bottom: 0;
+    }
+
+    &:last-child {
+      @media (max-width: 1023px) {
+        margin-right: 46px;
+      }
+    }
+
+    &--active {
+      background: #7397CE;
+      color: white;
+    }
+  }
+}
