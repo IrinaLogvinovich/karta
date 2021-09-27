@@ -1,0 +1,23 @@
+<svg width="484" height="718" viewBox="0 0 484 718" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="58.3515" height="58.3515" transform="matrix(0.703871 0.710328 -0.703871 0.710328 119.539 0)" fill="white"/>
+  <path d="M41.0715 80.145L-0.00146377 121.593L82.1445 121.593L41.0715 80.145Z" fill="white"/>
+  <rect width="58.3515" height="58.3515" transform="matrix(-0.70389 0.710309 -0.70389 -0.710309 82.1445 162.814)" fill="white"/>
+  <rect x="119.559" width="82.181" height="82.9306" fill="white"/>
+  <rect x="82.2617" y="163.069" width="332" height="82" transform="rotate(90 82.2617 163.069)" fill="white"/>
+  <rect width="58.3515" height="58.3515" transform="matrix(-0.70389 0.710309 -0.70389 -0.710309 82.4102 676.516)" fill="white"/>
+  <rect x="82.2617" y="575.069" width="101" height="82" transform="rotate(90 82.2617 575.069)" fill="white"/>
+  <ellipse cx="41.1678" cy="41.6141" rx="38.6444" ry="38.9968" fill="white"/>
+  <ellipse cx="241.183" cy="41.6141" rx="38.6444" ry="38.9968" fill="white"/>
+  <rect width="58.3515" height="58.3515" transform="matrix(-0.703871 0.710328 0.703871 0.710328 361.895 0)" fill="white"/>
+  <path d="M440.362 80.145L481.435 121.593L399.289 121.593L440.362 80.145Z" fill="white"/>
+  <rect width="58.3515" height="58.3515" transform="matrix(0.70389 0.710309 0.70389 -0.710309 399.289 162.814)" fill="white"/>
+  <rect width="82.181" height="82.9306" transform="matrix(-1 0 0 1 361.875 0)" fill="white"/>
+  <ellipse rx="38.6444" ry="38.9968" transform="matrix(-1 0 0 1 440.246 41.6141)" fill="white"/>
+  <path d="M41.2617 534.069C18.618 534.069 0.261719 552.425 0.261719 575.069H82.2617C82.2617 552.425 63.9054 534.069 41.2617 534.069Z" fill="white"/>
+  <path d="M41.2617 494.069C18.618 494.069 0.261719 512.425 0.261719 535.069H82.2617C82.2617 512.425 63.9054 494.069 41.2617 494.069Z" fill="white"/>
+  <rect x="483.262" y="163.069" width="332" height="82" transform="rotate(90 483.262 163.069)" fill="white"/>
+  <rect width="58.3515" height="58.3515" transform="matrix(-0.70389 0.710309 -0.70389 -0.710309 483.41 676.517)" fill="white"/>
+  <rect x="483.262" y="575.069" width="101" height="82" transform="rotate(90 483.262 575.069)" fill="white"/>
+  <path d="M442.262 534.069C419.618 534.069 401.262 552.425 401.262 575.069H483.262C483.262 552.425 464.905 534.069 442.262 534.069Z" fill="white"/>
+  <path d="M442.262 494.069C419.618 494.069 401.262 512.425 401.262 535.069H483.262C483.262 512.425 464.905 494.069 442.262 494.069Z" fill="white"/>
+</svg>
