@@ -118,19 +118,19 @@
 
 .header__logo {
   margin-left: 40px;
-    @media(max-width: 1400px) {
-      margin-left: 20px;
-      & img {
-        max-width: 150px;
-      }
+  @media(max-width: 1400px) {
+    margin-left: 20px;
+    & img {
+      max-width: 150px;
     }
+  }
 
-    @media(max-width: 1023px) {
-      margin-left: 12px;
-      & img {
-        max-width: 90px;
-      }
+  @media(max-width: 1023px) {
+    margin-left: 12px;
+    & img {
+      max-width: 90px;
     }
+  }
 }
 
 .header__burger {
@@ -156,8 +156,8 @@
   padding: 0;
   cursor: pointer;
   width: 25px;
-      visibility: hidden;
-    opacity: 0;
+  visibility: hidden;
+  opacity: 0;
 
   & img {
     width: 100%;
