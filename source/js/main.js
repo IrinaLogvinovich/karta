@@ -10,4 +10,6 @@
 //= modules/photos.js
 // eslint-disable-next-line
 //= modules/scroll.js
+// eslint-disable-next-line
+//= modules/items.js
 
