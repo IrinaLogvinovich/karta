@@ -8,4 +8,6 @@
 //= modules/find.js
 // eslint-disable-next-line
 //= modules/photos.js
+// eslint-disable-next-line
+//= modules/scroll.js
 
