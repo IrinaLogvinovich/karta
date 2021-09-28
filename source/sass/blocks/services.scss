@@ -144,19 +144,19 @@
 }
 
 @media(max-width: 767px) {
-.services__row:first-child .service:first-child {
-  background-color: #EEAEB5;
-}
+  .services__row:first-child .service:first-child {
+    background-color: #EEAEB5;
+  }
 
-.services__row:first-child .service:last-child {
-  background-color: #92BD72;
-}
+  .services__row:first-child .service:last-child {
+    background-color: #92BD72;
+  }
 
-.services__row:last-child .service:first-child {
-  background-color: #F06464;
-}
+  .services__row:last-child .service:first-child {
+    background-color: #F06464;
+  }
 
-.services__row:last-child .service:last-child {
-  background-color: #B4A07D;
-}
+  .services__row:last-child .service:last-child {
+    background-color: #B4A07D;
+  }
 }
