@@ -12,4 +12,5 @@
 //= modules/scroll.js
 // eslint-disable-next-line
 //= modules/items.js
+//= modules/words.js
 
